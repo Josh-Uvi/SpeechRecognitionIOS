@@ -13,8 +13,9 @@ This app demonstrates how to use [Google Cloud Speech API](https://cloud.google.
   - Cocoapods version 1.0 or later
 
 ## QuickStart
- - Clone this repo and cd into this directory
+ - clone this repo
 ```git clone https://github.com/Josh-Uvi/SpeechRecognitionIOS.git ```
+ -  cd into this directory `SpeechRecognitionIOS`
  - Open [SpeechRecognitionIOS.xcworkspace](https://github.com/Josh-Uvi/SpeechRecognitionIOS/tree/main/SpeechRecognitionIOS/SpeechRecognitionIOS.xcworkspace) with Xcode
  - In [Speech/SpeechRecognitionService.swift](https://github.com/JoshUvi/SpeechRecognitionIOS/blob/main/SpeechRecognitionIOS/SpeechRecognitionIOS/SpeechRecognitionService.swift), replace `YOUR_API_KEY` with the API key obtained above.
  - Build and run the app.
@@ -23,9 +24,17 @@ This app demonstrates how to use [Google Cloud Speech API](https://cloud.google.
     - The build process will start up an xcode simulator if you have one configured or a device if connected
     - Say a few words and wait for the display to update when your speech is recognized.
 
+> DONE
+  - [x] Apple Speech on-device library
+  - [x] Google Speech-to-text API
+  - [x] Life audio recording/streaming
+  - [x] Offline live audio recording/streaming
+
 > TODO
-  - [ ] Display live audio recording on a OLED device
+  - [ ] Pre-recorded audio file
+  - [ ] Display live audio recording on an OLED device
   - [ ] Embed python script/program in the app, visit [Python-Apple-support](https://github.com/beeware/Python-Apple-support) docs for more info
   - [ ] Add some test cases i.e unit or E2E test cases
   - [ ] Add self-hosted Speech Recognition server/engine, visit [Kaldi Speech Recognition Server](https://github.com/alumae/kaldi-gstreamer-server) docs for more info
+  - [ ] Add CI/CD pipelines
  
