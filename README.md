@@ -13,6 +13,9 @@ This app demonstrates how to use [Google Cloud Speech API](https://cloud.google.
   - Cocoapods version 1.0 or later
 
 ## QuickStart
+> Ensure you have pods installed on your machine, to check use ` pod --version `
+
+> :exclamation: Do not run this command ` pod install` because pods already exist, see [Podfile & Podfile.lock](https://github.com/Josh-Uvi/SpeechRecognitionIOS/blob/main/SpeechRecognitionIOS/Podfile.lock)
  - clone this repo
 ```git clone https://github.com/Josh-Uvi/SpeechRecognitionIOS.git ```
  -  cd into this directory `SpeechRecognitionIOS`
@@ -21,7 +24,7 @@ This app demonstrates how to use [Google Cloud Speech API](https://cloud.google.
  - Build and run the app.
     - Use command `cmd + R ` to build and run on iOS simulator/device 
     - Alternatively, press the play button from xcode to start the build process
-    - The build process will start up an xcode simulator if you have one configured or a device if connected
+    - The build process will start up and run on Xcode simulator if you have one configured or on a device if connected
     - Say a few words and wait for the display to update when your speech is recognized.
 
 > DONE
