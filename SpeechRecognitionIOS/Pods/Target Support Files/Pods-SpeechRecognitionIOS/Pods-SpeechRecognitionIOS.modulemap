@@ -1,0 +1,6 @@
+framework module Pods_SpeechRecognitionIOS {
+  umbrella header "Pods-SpeechRecognitionIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
