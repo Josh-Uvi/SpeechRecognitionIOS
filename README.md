@@ -20,7 +20,7 @@ This app demonstrates how to use [Google Cloud Speech API](https://cloud.google.
 ```git clone https://github.com/Josh-Uvi/SpeechRecognitionIOS.git ```
  -  cd into this directory `SpeechRecognitionIOS`
  - Open [SpeechRecognitionIOS.xcworkspace](https://github.com/Josh-Uvi/SpeechRecognitionIOS/tree/main/SpeechRecognitionIOS/SpeechRecognitionIOS.xcworkspace) with Xcode
- - In [Speech/SpeechRecognitionService.swift](https://github.com/JoshUvi/SpeechRecognitionIOS/blob/main/SpeechRecognitionIOS/SpeechRecognitionIOS/SpeechRecognitionService.swift), replace `YOUR_API_KEY` with the API key obtained above.
+ - In [SpeechRecognitionService.swift](https://github.com/JoshUvi/SpeechRecognitionIOS/blob/main/SpeechRecognitionIOS/SpeechRecognitionIOS/SpeechRecognitionService.swift), replace `YOUR_API_KEY` with the API key obtained above.
  - Build and run the app.
     - Use command `cmd + R ` to build and run on iOS simulator/device 
     - Alternatively, press the play button from xcode to start the build process
