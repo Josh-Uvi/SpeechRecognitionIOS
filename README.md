@@ -36,8 +36,9 @@ This app demonstrates how to use [Google Cloud Speech API](https://cloud.google.
 > TODO
   - [ ] Pre-recorded audio file
   - [ ] Display live audio recording on an OLED device
-  - [ ] Embed python script/program in the app, visit [Python-Apple-support](https://github.com/beeware/Python-Apple-support) docs for more info
   - [ ] Add some test cases i.e unit or E2E test cases
-  - [ ] Add self-hosted Speech Recognition server/engine, visit [Kaldi Speech Recognition Server](https://github.com/alumae/kaldi-gstreamer-server) docs for more info
+  - [ ] Add performance test
   - [ ] Add CI/CD pipelines
+  - [ ] Embed python script/program in the app, visit [Python-Apple-support](https://github.com/beeware/Python-Apple-support) docs for more info
+  - [ ] Add self-hosted Speech Recognition server/engine, visit [Kaldi Speech Recognition Server](https://github.com/alumae/kaldi-gstreamer-server) docs for more info
  
