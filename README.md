@@ -16,28 +16,31 @@ This app demonstrates how to use [Google Cloud Speech API](https://cloud.google.
 > Ensure you have pods installed on your machine, to check use ` pod --version `
 
 > :exclamation: Do not run this command ` pod install` because pods already exist, see [Podfile & Podfile.lock](https://github.com/Josh-Uvi/SpeechRecognitionIOS/blob/main/SpeechRecognitionIOS/Podfile.lock)
- - clone this repo
+ - Clone this repo
 ```git clone https://github.com/Josh-Uvi/SpeechRecognitionIOS.git ```
- -  cd into this directory `SpeechRecognitionIOS`
+ -  CD into this directory `SpeechRecognitionIOS`
  - Open [SpeechRecognitionIOS.xcworkspace](https://github.com/Josh-Uvi/SpeechRecognitionIOS/tree/main/SpeechRecognitionIOS/SpeechRecognitionIOS.xcworkspace) with Xcode
  - In [SpeechRecognitionService.swift](https://github.com/JoshUvi/SpeechRecognitionIOS/blob/main/SpeechRecognitionIOS/SpeechRecognitionIOS/SpeechRecognitionService.swift), replace `YOUR_API_KEY` with the API key obtained above.
  - Build and run the app.
     - Use command `cmd + R ` to build and run on iOS simulator/device 
     - Alternatively, press the play button from xcode to start the build process
     - The build process will start up and run on Xcode simulator if you have one configured or on a device if connected
-    - Say a few words and wait for the display to update when your speech is recognized.
+    - Say a few words and your speech will be recognized.
 
 > DONE
   - [x] Apple Speech on-device library
   - [x] Google Speech-to-text API
-  - [x] Live audio recording
-  - [x] Offline live audio recording
+  - [x] Transcribe live audio recording 
+  - [x] Offline capability available for iOS 13.0 or later
 
 > TODO
   - [ ] Transcribe pre-recorded audio file
   - [ ] Display transcribed text on an OLED device
   - [ ] Do performance and load stress test if possible
-  - [ ] Add CI/CD pipelines
-  - [ ] Embed python script/program in the app, visit [Python-Apple-support](https://github.com/beeware/Python-Apple-support) docs for more info
-  - [ ] Add self-hosted Speech Recognition server/engine, visit [Kaldi Speech Recognition Server](https://github.com/alumae/kaldi-gstreamer-server) docs for more info
+  
+  > NICE TO HAVE
+   - [ ] CI/CD pipelines
+   - [ ] Self-hosted Speech Recognition server/engine, using docker technology and [Kaldi Speech Recognition Server](https://github.com/alumae/kaldi-gstreamer-server).
+   - [ ] Run Python program in the app, using [Python-Apple-support](https://github.com/beeware/Python-Apple-support)
+
  
