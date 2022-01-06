@@ -30,14 +30,14 @@ This app demonstrates how to use [Google Cloud Speech API](https://cloud.google.
 > DONE
   - [x] Apple Speech on-device library
   - [x] Google Speech-to-text API
-  - [x] Life audio recording/streaming
-  - [x] Offline live audio recording/streaming
+  - [x] Live audio recording
+  - [x] Offline live audio recording
 
 > TODO
-  - [ ] Pre-recorded audio file
-  - [ ] Display live audio recording on an OLED device
+  - [ ] Transcribe pre-recorded audio file
+  - [ ] Display transcribed text on an OLED device
   - [ ] Add some test cases i.e unit or E2E test cases
-  - [ ] Add performance test
+  - [ ] Add performance test and load stress test if possible
   - [ ] Add CI/CD pipelines
   - [ ] Embed python script/program in the app, visit [Python-Apple-support](https://github.com/beeware/Python-Apple-support) docs for more info
   - [ ] Add self-hosted Speech Recognition server/engine, visit [Kaldi Speech Recognition Server](https://github.com/alumae/kaldi-gstreamer-server) docs for more info
