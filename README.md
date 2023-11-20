@@ -1,6 +1,6 @@
 # SpeechRecognitionIOS
 
-This app demonstrates how to use [Google Cloud Speech API](https://cloud.google.com/speech-to-text) and [Apple on-device Speech library](https://developer.apple.com/documentation/speech) to recognize speech in live audio recording.
+This project demonstrates the recording and transcribing of speech from one language to another (e.g. English to Yoruba) using the [Google Cloud Speech API](https://cloud.google.com/speech-to-text) and [Apple on-device Speech library](https://developer.apple.com/documentation/speech).
 
 ### Prerequisites
   - An API key for the Cloud Speech API (See the [docs](https://cloud.google.com/vision/docs/quickstart) to learn more)
